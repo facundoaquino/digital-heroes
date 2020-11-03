@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
 
 // CONSIGNA 2
 // Ruta /heroes
-// Consigna: enviar todo el array
+ 
 app.get('/heroes', (req,res) => {
   res.json(heroes)
 });
